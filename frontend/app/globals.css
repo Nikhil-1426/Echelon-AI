@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ey-black: #000000;
+  --ey-yellow: #FFBE00;
+  --ey-yellow-dark: #E6A800;
+  --ey-gray: #1A1A1A;
+  --ey-gray-light: #2A2A2A;
+}
+
+body {
+  background-color: var(--ey-black);
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+@layer utilities {
+  .text-ey-yellow {
+    color: var(--ey-yellow);
+  }
+  .bg-ey-yellow {
+    background-color: var(--ey-yellow);
+  }
+  .border-ey-yellow {
+    border-color: var(--ey-yellow);
+  }
+}
+
