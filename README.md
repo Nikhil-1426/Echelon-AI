@@ -68,10 +68,5 @@ Production-grade, multi-agent LangGraph workflow with an LSTM anomaly detector f
 - **Workflow Visualization** — LangGraph pipeline with step status
 - **Analytics & Insights** — Charts (Recharts) + manufacturing insights table
 
-## Notes & TODOs
-
-- LSTM model uses random weights by default; train and load weights via `train_lstm_anomaly_model`.
-- Workshop data and diagnosis mappings are simple rule-based placeholders; replace with real services/ML as needed.
-- Extend APIs for historical trends if needed (currently stats are computed on current workflow runs).
 
 
